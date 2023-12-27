@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(34, 97, 195, 1) 0%, rgba(45, 206, 253, 1) 100%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Adjusted font size for better readability */
+    font-family: "Arial", sans-serif; /* Updated font family */
+}
+
+main {
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em; /* Increased font size for the main heading */
+    margin-bottom: 20px;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-29 {
+      position: relative;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  color: #fff;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  padding: 0 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s, color 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+}
+
+.button-29:focus,
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+    color: #fff;
+}
+
+/* Improved styling for the datepicker and calendar container */
+#datepicker {
+    appearance: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    outline: none;
+}
+
+
