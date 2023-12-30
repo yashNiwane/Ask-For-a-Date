@@ -9,7 +9,7 @@ This interactive webpage is designed to make asking someone out on a date a fun 
 
 Here's a sneak peek of the webpage:
 
-![screenshot](Assets\images\screenshot.png)
+![screenshot](https://github.com/yashNiwane/Ask-for-a-date/blob/main/Assets/images/screenshot.png)
 
 ## Features
 
