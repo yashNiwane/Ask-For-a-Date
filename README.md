@@ -9,7 +9,7 @@ This interactive webpage is designed to make asking someone out on a date a fun 
 
 Here's a sneak peek of the webpage:
 
-![Assets\images\screenshot.png]
+![screenshot](Assets\images\screenshot.png)
 
 ## Features
 
